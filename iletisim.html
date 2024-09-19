@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<section id="top-menu" class="sticky-top container-fluid bg-white">
@@ -45,7 +46,7 @@
 </section>
 <section class="container pt-5 pb-5">
   <div class="row">
-    <div class="col-md-6 pt-5 order-md-last">
+    <div class="col-md-6 pt-5 order-md-last" data-aos="zoom-in-up"  data-aos-duration="600">
       
       <h4 class=" text-center">Mesaj bırakın</h4>
       <form id="iletisim-form" name="iletisim-form" action="#" method="POST">
@@ -64,7 +65,7 @@
 
       </form> 
       </div>
-      <div class="col-md-6 pt-5 order-md-first">
+      <div class="col-md-6 pt-5 order-md-first" data-aos="zoom-in-up"  data-aos-duration="300">
       <h4>Adresimiz</h4>
       <p class="h5">Bilinmez Yaylası, Yeşilyurt Mahallesi, Bulut Sokak No:12, 53300, Rize</p>
       <h4 class="mt-5">Numaramız</h4>
@@ -110,5 +111,9 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/myjs.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
